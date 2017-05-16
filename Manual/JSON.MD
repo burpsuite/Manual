@@ -85,7 +85,7 @@ Info格式示例
 ```
 ### Shadowrocket
 ```
-暂无配置
+不需要配置
 ```
 ### Potatso2
 ```
