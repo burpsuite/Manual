@@ -4,7 +4,7 @@
 
 配置信息格式说明
 ------
-通过配置信息生成完美规则,配置信息格式包含几乎所有参数,不需要的参数可以选择删除行或者`false`!<br>
+通过配置信息快速生成含有配置信息规则,配置信息格式包含几乎所有参数,不需要的参数可以选择删除!<br>
 支持全部`http/https/socks5/socks5-tls/custom`服务器类型,支持全新`tfo/obfs`特性!<br>
 整个配置需要使用JSON格式编写,请按照[JSON标准](http://www.json.cn/wiki.html)编写!<br>
 为了确保配置正确性,可以使用[JSON校验](http://www.bejson.com)进行检查正确性!<br>
