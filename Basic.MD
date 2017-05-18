@@ -16,8 +16,8 @@ CloudGate普通规则可以直接导入使用,不需要任何额外的操作,非
 
 规则列表
 ------
-使用规则列表前提需要知道何为[规则列表](https://github.com/BurpSuite/RuleList/blob/master/README.MD)<br>
-简要概括:通过固定语法编写规则列表文件生成不同规则,可以改变规则全部部分所有参数,非常方便<br>
+使用规则需要知道[规则列表](https://github.com/BurpSuite/RuleList/blob/master/README.MD)<br>
+简要概括:通过`List`参数改变规则列表内容非常方便!<br>
 CloudGate支持通过`URL`参数形式切换第三方规则列表,第三方列表不作安全保证!<br>
 使用方法:`https://async.be/Rule/Basic/{规则名称}?List={规则列表}`<br>
 `https://async.be/Rule/Basic/Surge?List=https://raw.githubusercontent.com/BurpSuite/RuleList/master/Developers.json`<br>
@@ -32,7 +32,7 @@ CloudGate支持通过`URL`参数形式切换第三方规则列表,第三方列�
 规则说明
 ------
 CloudGate规则地址可以使用`URL`方式导入,导入时请区分大小写!<br>
-CloudGate规则导入地址无需更新,只需要定时更新即可!
+CloudGate规则导入地址无需更新!
 
 获取帮助
 ------
