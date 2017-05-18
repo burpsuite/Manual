@@ -19,7 +19,7 @@ CloudGate高级规则可以直接导入使用,非常方便!
 
 规则列表
 ------
-使用规则列表需要知道[规则列表](https://github.com/BurpSuite/RuleList/blob/master/README.MD)<br>
+使用规则需要知道[规则列表](https://github.com/BurpSuite/RuleList/blob/master/README.MD)<br>
 简要概括:通过固定语法编写规则列表文件生成不同规则,可以改变规则全部部分所有参数,非常方便<br>
 CloudGate支持通过`URL`参数形式切换第三方规则列表,第三方列表不作安全保证!<br>
 在`Advanced`规则末尾找到`List`键名对应键值,填入规则列表URL地址即可!<br>
