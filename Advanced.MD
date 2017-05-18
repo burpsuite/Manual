@@ -14,12 +14,12 @@ CloudGate高级规则可以直接导入使用,非常方便!
 
 配置文件格式
 ------
-使用规则列表前提需要知道何为[配置文件格式](https://github.com/BurpSuite/RuleManual/blob/master/Manual/JSON.MD)<br>
+使用规则列表需要知道[配置文件格式](https://github.com/BurpSuite/RuleManual/blob/master/Manual/JSON.MD)<br>
 简要概括:通过简单的格式编写配置信息,然后就可以直接导入使用了!<br>
 
 规则列表
 ------
-使用规则列表前提需要知道何为[规则列表](https://github.com/BurpSuite/RuleList/blob/master/README.MD)<br>
+使用规则列表需要知道[规则列表](https://github.com/BurpSuite/RuleList/blob/master/README.MD)<br>
 简要概括:通过固定语法编写规则列表文件生成不同规则,可以改变规则全部部分所有参数,非常方便<br>
 CloudGate支持通过`URL`参数形式切换第三方规则列表,第三方列表不作安全保证!<br>
 在`Advanced`规则末尾找到`List`键名对应键值,填入规则列表URL地址即可!<br>
@@ -27,7 +27,7 @@ CloudGate支持通过`URL`参数形式切换第三方规则列表,第三方列�
 
 鉴权令牌
 ------
-使用规则前提需要知道何为[TOKEN](https://github.com/BurpSuite/RuleManual/blob/master/Manual/Token.MD)<br>
+使用规则需要知道[TOKEN](https://github.com/BurpSuite/RuleManual/blob/master/Manual/Token.MD)<br>
 简要概括:每个下载的规则都包含唯一标识符,目的是为了检测下载规则与请求接口信息是否一致,如果不一致将导致失败!<br>
 接口包括:`虾米音乐/优酷视频/百度翻译/Flex3`等,如果不使用上述应用,那么可以忽略这一部分!<br>
 当然包含的信息仅用于接口自动鉴权使用,不会用在其他地方也不会收集任何信息!
