@@ -22,7 +22,7 @@ CloudGate支持通过`URL`参数形式切换第三方规则列表,第三方列�
 使用方法:`https://async.be/Rule/Basic/{规则名称}?List={规则列表}`<br>
 `https://async.be/Rule/Basic/Surge?List=https://raw.githubusercontent.com/BurpSuite/RuleList/master/Developers.json`<br>
 
-Token令牌
+鉴权令牌
 ------
 使用规则前提需要知道何为[TOKEN](https://github.com/BurpSuite/RuleManual/blob/master/Manual/Token.MD)<br>
 每个下载的规则都包含唯一标识符,目的是为了检测下载规则与请求接口信息是否一致,如果不一致将导致失败!<br>
