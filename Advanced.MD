@@ -10,6 +10,7 @@ CloudGate高级规则可以直接导入使用,非常方便!
 |Shadowrocket|`https://async.be/Rule/JSON/Shadowrocket`|
 |A.BIG.T|`https://async.be/Rule/JSON/A.BIG.T`|
 |Potatso|`https://async.be/Rule/JSON/Potatso`|
+|Cross|`https://async.be/Rule/JSON/Cross`|
 
 配置文件格式
 ------
