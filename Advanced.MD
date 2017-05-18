@@ -12,9 +12,9 @@ CloudGate高级规则可以直接导入使用,非常方便!
 |Potatso|`https://async.be/Rule/JSON/Potatso`|
 |Cross|`https://async.be/Rule/JSON/Cross`|
 
-配置文件格式
+配置信息格式
 ------
-使用规则列表需要知道[配置文件格式](https://github.com/BurpSuite/RuleManual/blob/master/Manual/JSON.MD)<br>
+使用规则列表需要知道[配置信息格式](https://github.com/BurpSuite/RuleManual/blob/master/Manual/JSON.MD)<br>
 简要概括:通过简单的格式编写配置信息,然后就可以直接导入使用了!<br>
 
 规则列表
