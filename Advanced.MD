@@ -14,7 +14,7 @@ CloudGate高级规则可以直接导入使用,非常方便!
 
 配置信息格式
 ------
-使用规则需要知道[配置信息格式](https://github.com/BurpSuite/RuleManual/blob/master/Manual/JSON.MD)<br>
+使用规则需要知道[配置信息格式](https://github.com/BurpSuite/RuleManual/blob/master/JSON.MD)<br>
 简要概括:通过简单的格式编写配置信息,然后就可以直接导入使用了!<br>
 
 规则列表
