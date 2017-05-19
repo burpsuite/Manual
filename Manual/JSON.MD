@@ -90,7 +90,15 @@ Info格式示例
 ```
 ### Potatso2
 ```
-等待提交
+    "Info": {
+        "SERVER": [
+            [Potatso2]|[PROXY.hk],type = \"SHADOWSOCKS\",host = \"ss.example.com\",port = 8388,encryption = \"aes-256-cfb\",password = \"DO NOT EXPOSE IT TO OTHERS\",remark = \"HK Proxy\",
+            [Potatso2]|[PROXY.us_ssr],type = \"SHADOWSOCKSR\",host = \"ssr.example.com\",port = 8388,encryption = \"aes-256-cfb\",password = \"DO NOT EXPOSE IT TO OTHERS\",protocol = \"auth_aes128_md5\",protocolParam = \"64#123:user\",obfs = \"tls1.2_ticket_auth\",obfsParam = \"cloudflare.com\",remark = \"HK Proxy\",
+            [Potatso2]|[PROXY.jp],type = \"SOCKS5\",host = \"socks5.example.com\",port = 8888,user = \"testuser\",password = \"DO NOT EXPOSE IT TO OTHERS\",remark = \"HK Proxy\"
+        ],
+        "Group": [
+        ]
+    }
 ```
 ### A.BIG.T
 ```
