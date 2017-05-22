@@ -42,5 +42,6 @@ CloudGate规则导入地址无需更新!
 |联系方式|内容信息|
 |----|----|
 |Twitter|https://twitter.com/@OAuth4|
+|Slack|https://goo.gl/gkPN6q|
 |Github|https://github.com/BurpSuite|
 |Email|service@async.be|
