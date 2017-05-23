@@ -77,8 +77,8 @@ Info格式示例
         "IPCIDR6": true,
         "USERAGENT": true,
         "IPV6": false,
-        "Rule": true
-    },
+        "Rule": false
+    },
     "Info": {
         "SERVER": [
             "[Surge]|SERVERNama,http,1.2.3.1,8081,User,Password1",
@@ -98,7 +98,7 @@ Info格式示例
         ]
     },
     "SUFFIX": {
-        "Apple": "Proxyd",
+        "Apple": "DIRECT",
         "Proxy": "Autoxy",
         "KEYWORD": "Proxyb",
         "URLREGEX": "Proxyb",
