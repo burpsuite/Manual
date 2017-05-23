@@ -27,7 +27,7 @@ Info格式
     "Info": {
         "SERVER": [
             "[Potatso]|SERVERA,SS,1.2.3.5,8085,chacha20,Password",
-            "[Potatso]|SERVERB,SS,example.com,8085,aes-256-cfb,Password",
+            "[Potatso]|SERVERB,SS,example.com,8085,aes-256-cfb,Password"
         ],
         "Group": [
         ]
