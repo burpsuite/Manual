@@ -63,11 +63,11 @@ Info格式
             "[A.BIG.T]|SERVERH = custom,1.2.3.6,8086,chacha20,Password5"
         ],
         "Group": [
-            "[Surge]|ProxyA = select,SERVERA,SERVERB,SERVERC,SERVERD,SERVERE",
-            "[Surge]|ProxyB = select,SERVERA,SERVERB,SERVERC,SERVERD",
-            "[Surge]|ProxyC = select,SERVERA,SERVERB,SERVERE",
-            "[Surge]|ProxyD = select,SERVERD,SERVERE",
-            "[Surge]|Autoxy = url-test,SERVERA,SERVERB,url = http://www.gstatic.com/generate_204, interval = 600, tolerance = 200, timeout = 5"
+            "[A.BIG.T]|ProxyA = select,SERVERA,SERVERB,SERVERC,SERVERD,SERVERE",
+            "[A.BIG.T]|ProxyB = select,SERVERA,SERVERB,SERVERC,SERVERD",
+            "[A.BIG.T]|ProxyC = select,SERVERA,SERVERB,SERVERE",
+            "[A.BIG.T]|ProxyD = select,SERVERD,SERVERE",
+            "[A.BIG.T]|Autoxy = url-test,SERVERA,SERVERB,url = http://www.gstatic.com/generate_204, interval = 600, tolerance = 200, timeout = 5"
         ]
     }
 ```
