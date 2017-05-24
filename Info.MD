@@ -4,14 +4,14 @@ Info格式
 ```
     "Info": {
         "SERVER": [
-            "[Surge]|SERVERA,http,1.2.3.1,8081,User,Password1",
-            "[Surge]|SERVERB,https,1.2.3.2,8082,User,Password2,skip-cert-verify=true",
-            "[Surge]|SERVERC,socks5,1.2.3.3,8083,User,Password3",
-            "[Surge]|SERVERD,socks5-tls,1.2.3.4,8084,User,Password4,skip-cert-verify=true",
-            "[Surge]|SERVERE,custom,1.2.3.5,8085,chacha20,Password5,[Module]",
-            "[Surge]|SERVERF,custom,example.com,8085,aes-256-cfb,Password,[Module]",
-            "[Surge]|SERVERG,custom,1.2.3.6,8086,chacha20,Password5,[Module],obfs=http,obfs-host=www.google.com",
-            "[Surge]|SERVERH,custom,1.2.3.6,8086,chacha20,Password5,[Module],tfo=true"
+            "[Surge]|SERVERA = http,1.2.3.1,8081,User,Password1",
+            "[Surge]|SERVERB = https,1.2.3.2,8082,User,Password2,skip-cert-verify=true",
+            "[Surge]|SERVERC = socks5,1.2.3.3,8083,User,Password3",
+            "[Surge]|SERVERD = socks5-tls,1.2.3.4,8084,User,Password4,skip-cert-verify=true",
+            "[Surge]|SERVERE = custom,1.2.3.5,8085,chacha20,Password5,[Module]",
+            "[Surge]|SERVERF = custom,example.com,8085,aes-256-cfb,Password,[Module]",
+            "[Surge]|SERVERG = custom,1.2.3.6,8086,chacha20,Password5,[Module],obfs=http,obfs-host=www.google.com",
+            "[Surge]|SERVERH = custom,1.2.3.6,8086,chacha20,Password5,[Module],tfo=true"
         ],
         "Group": [
             "[Surge]|ProxyA = select,SERVERA,SERVERB,SERVERC,SERVERD,SERVERE",
@@ -26,8 +26,8 @@ Info格式
 ```
     "Info": {
         "SERVER": [
-            "[Potatso]|SERVERA,SS,1.2.3.5,8085,chacha20,Password",
-            "[Potatso]|SERVERB,SS,example.com,8085,aes-256-cfb,Password"
+            "[Potatso]|- name: SERVERA,  type: SS,  host: 1.2.3.4,  port: 8085,  encryption: chacha20,  password: Password",
+            "[Potatso]|- name: SERVERB,  type: SS,  host: 1.2.3.5,  port: 8085,  encryption: aes-256-cfb,  password: Password"
         ],
         "Group": [
         ]
@@ -53,14 +53,14 @@ Info格式
 ```
     "Info": {
         "SERVER": [
-            "[A.BIG.T]|SERVERA,http,1.2.3.1,8081,User,Password1",
-            "[A.BIG.T]|SERVERB,https,1.2.3.2,8082,User,Password2,skip-cert-verify=true",
-            "[A.BIG.T]|SERVERC,socks5,1.2.3.3,8083,User,Password3",
-            "[A.BIG.T]|SERVERD,socks5-tls,1.2.3.4,8084,User,Password4,skip-cert-verify=true",
-            "[A.BIG.T]|SERVERE,custom,1.2.3.5,8085,chacha20,Password5",
-            "[A.BIG.T]|SERVERF,custom,example.com,8085,aes-256-cfb,Password",
-            "[A.BIG.T]|SERVERG,custom,1.2.3.6,8086,chacha20,Password5",
-            "[A.BIG.T]|SERVERH,custom,1.2.3.6,8086,chacha20,Password5"
+            "[A.BIG.T]|SERVERA = http,1.2.3.1,8081,User,Password1",
+            "[A.BIG.T]|SERVERB = https,1.2.3.2,8082,User,Password2,skip-cert-verify=true",
+            "[A.BIG.T]|SERVERC = socks5,1.2.3.3,8083,User,Password3",
+            "[A.BIG.T]|SERVERD = socks5-tls,1.2.3.4,8084,User,Password4,skip-cert-verify=true",
+            "[A.BIG.T]|SERVERE = custom,1.2.3.5,8085,chacha20,Password5",
+            "[A.BIG.T]|SERVERF = custom,example.com,8085,aes-256-cfb,Password",
+            "[A.BIG.T]|SERVERG = custom,1.2.3.6,8086,chacha20,Password5",
+            "[A.BIG.T]|SERVERH = custom,1.2.3.6,8086,chacha20,Password5"
         ],
         "Group": [
             "[Surge]|ProxyA = select,SERVERA,SERVERB,SERVERC,SERVERD,SERVERE",
@@ -75,7 +75,7 @@ Info格式
 ```
     "Info": {
         "SERVER": [
-            "[Cross]|SERVER,172.0.0.1,80, aes-256-cfb,\"Password\",upstream-proxy=false,upstream-proxy-auth=false,obfs-http=false"
+            "[Cross]|SERVER = 172.0.0.1,80, aes-256-cfb,\"Password\",upstream-proxy=false,upstream-proxy-auth=false,obfs-http=false"
         ],
         "Group": [
             "[Cross]|Proxy = ssid, default = SERVER, cellular = SERVER, \"WiFi_HOME\" = DIRECT, \"WiFi_WORK\" = SERVER, \"WiFi_Restaurant\" = SERVER"
