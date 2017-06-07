@@ -1,6 +1,6 @@
 高级规则
 ===========================
-CloudGate高级规则可以直接导入使用,非常方便!
+CloudGate高级规则需要通过配置格式导入!
 
 规则列表
 ------
@@ -25,9 +25,9 @@ CloudGate支持通过`URL`参数形式切换第三方规则列表,第三方列�
 在`Advanced`规则末尾找到`List`键名对应键值,填入规则列表URL地址即可!<br>
 `"Other":{"List":"https://raw.githubusercontent.com/BurpSuite/RuleList/master/Default.json"}`<br>
 
-鉴权令牌
+认证密钥
 ------
-使用规则需要知道[TOKEN](https://github.com/BurpSuite/RuleManual/blob/master/Manual/Token.MD)<br>
+使用规则需要知道[AuthKey](https://github.com/BurpSuite/RuleManual/blob/master/Manual/AuthKey.MD)<br>
 简要概括:每个下载的规则都包含唯一标识符,目的是为了检测下载规则与请求接口信息是否一致,如果不一致将导致失败!<br>
 接口包括:`虾米音乐/优酷视频/百度翻译/Flex3`等,如果不使用上述应用,那么可以忽略这一部分!<br>
 当然包含的信息仅用于接口自动鉴权使用,不会用在其他地方也不会收集任何信息!
