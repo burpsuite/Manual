@@ -34,7 +34,7 @@
 |`USERAGENT`|等价`USER-AGENT`参数,`2.x`版本以上支持,以下会报错`可以关闭`|
 |`IPV6`|IPV6支持|
 |`Rule`|选择代理列表高级或基本,开启选择基本规则,不开启选择高级规则`规则数量变化`|
-|`SERVER`|不同的应用格式不同,请参考Info格式示例,支持同时混合多种应用Info配置,Surge需要将模块地址替换为[Module]|
+|`SERVER`|不同的应用格式不同,请参考Info格式示例,支持混合多种Info配置,Surge需要将模块地址替换为[Module]|
 |`Module`|`custom`模块,`shadowsocks`必须添加,只有填写了`[Module]`才会输出`Other->Module`信息|
 |`Group`|等价与规则组,规则组包含代理名称,可以放置无限个代理,可以为`AutoGroup`|
 |`Apple`|Apple规则块的后缀,可以填写`Group`组的名称,可以随意自定义|
