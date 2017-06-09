@@ -29,6 +29,7 @@
 |`ExcludeHost`|等价`exclude-simple-hostnames`参数|
 |`WIFIAccess`|等价`allow-wifi-access`参数,允许`WIFI`访问|
 |`Replica`|等价`replica`参数,抓取流量`默认关闭`|
+|`PROCESS`|等价`PROCESS-NAME`参数,`2.x`版本以上支持,以下会报错`可以关闭`|
 |`URLREGEX`|等价`URL-REGEX`参数,`2.x`版本以上支持,以下会报错`可以关闭`|
 |`IPCIDR6`|等价`IP-CIDR6`参数,`2.x`版本以上支持,以下会报错`可以关闭`|
 |`USERAGENT`|等价`USER-AGENT`参数,`2.x`版本以上支持,以下会报错`可以关闭`|
@@ -38,9 +39,9 @@
 |`Module`|`custom`模块,`shadowsocks`必须添加,只有填写了`[Module]`才会输出`Other->Module`信息|
 |`Group`|等价与规则组,规则组包含代理名称,可以放置无限个代理,可以为`AutoGroup`|
 |`Apple`|Apple规则块的后缀,可以填写`Group`组的名称,可以随意自定义|
-|`Apple`|`Apple`规则块的后缀,可以填写`Group`组的名称,可以随意自定义|
 |`Proxy`|`Proxy`规则块的后缀,可以填写`Group`组的名称,可以随意自定义|
 |`KEYWORD`|`KEYWORD`规则块的后缀,可以填写`Group`组的名称,可以随意自定义|
+|`PROCESS`|`PROCESS`规则块的后缀,可以填写`Group`组的名称,可以随意自定义`只有启用才会生效`|
 |`URLREGEX`|`URLREGEX`规则块的后缀,可以填写`Group`组的名称,可以随意自定义`只有启用才会生效`|
 |`USERAGENT`|`USERAGENT`规则块的后缀,可以填写`Group`组的名称,可以随意自定义`只有启用才会生效`|
 |`IPCIDR6`|`IPCIDR6`规则块的后缀,可以填写`Group`组的名称,可以随意自定义`只有启用才会生效`|
