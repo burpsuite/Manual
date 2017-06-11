@@ -21,10 +21,12 @@
 |----|-----|
 |`Author`|使用该配置用户的名字`非必要`|
 |`Version`|用于区分不同版本的重要信息`必要`|
+
 |`MITM`|MITM信息,`true`为开启\|`15F5092B`为ca-passphrase信息\|`URL`为ca-p12信息|
 |`External`|外部控制器,`true`开启\|`BurpSuite`密码\|`0.0.0.0`默认信息\|`6170`端口|
 |`MacOS`|MacOS参数,`true`开启\|`1.2.3.4`监听地址\|`5.6.7.8`socks监听地址\|`3040`服务端口\|`5030`socks服务端口|
 |`DNS`|DNS参数,`true`开启\|`8.8.8.8`主DNS\|`8.8.4.4`副DNS,还可以继续无限增加|
+
 |`EnhancedMode`|等价`enhanced-mode-by-rule`参数,`TUN`增强模式|
 |`ExcludeHost`|等价`exclude-simple-hostnames`参数|
 |`WIFIAccess`|等价`allow-wifi-access`参数,允许`WIFI`访问|
@@ -33,11 +35,14 @@
 |`URLREGEX`|等价`URL-REGEX`参数,`2.x`版本以上支持,以下会报错`可以关闭`|
 |`IPCIDR6`|等价`IP-CIDR6`参数,`2.x`版本以上支持,以下会报错`可以关闭`|
 |`USERAGENT`|等价`USER-AGENT`参数,`2.x`版本以上支持,以下会报错`可以关闭`|
+|`Header`|等价`Header Rewrite`参数,`2.x`版本以上支持,以下会报错`可以关闭`|
 |`IPV6`|IPV6支持|
 |`Rule`|选择代理列表高级或基本,开启选择基本规则,不开启选择高级规则`规则数量变化`|
+
 |`SERVER`|不同的应用格式不同,请参考Info格式示例,支持混合多种Info配置,Surge需要将模块地址替换为[Module]|
 |`Module`|`custom`模块,`shadowsocks`必须添加,只有填写了`[Module]`才会输出`Other->Module`信息|
 |`Group`|等价与规则组,规则组包含代理名称,可以放置无限个代理,可以为`AutoGroup`|
+
 |`Apple`|Apple规则块的后缀,可以填写`Group`组的名称,可以随意自定义|
 |`Proxy`|`Proxy`规则块的后缀,可以填写`Group`组的名称,可以随意自定义|
 |`KEYWORD`|`KEYWORD`规则块的后缀,可以填写`Group`组的名称,可以随意自定义|
@@ -47,6 +52,7 @@
 |`IPCIDR6`|`IPCIDR6`规则块的后缀,可以填写`Group`组的名称,可以随意自定义`只有启用才会生效`|
 |`IPCIDR`|`IPCIDR`规则块的后缀,可以填写`Group`组的名称,可以随意自定义|
 |`Other`|`Other`规则块的后缀,可以填写`Group`组的名称,可以随意自定义|
+
 |`Module`|就是上面提到的`Module`|
 |`List`|规则列表参数,规则列表参数必须存在缺少无法生成规则|
 |`Merge`|规则合并参数,可有可无,如果你需要除了规则列表外自定义一些规则则需要填写|
